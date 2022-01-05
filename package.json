@@ -1,0 +1,16 @@
+{
+  "name": "type-checking-without-typescript",
+  "version": "0.0.1",
+  "description": "Example of writing Javascript code with type checking",
+  "main": "index.js",
+  "repository": "git@github.com:mhmdAljefri/type-checking-without-typescript.git",
+  "author": "mhmdAljefri <algfry12@gmail.com>",
+  "license": "MIT",
+  "private": false,
+
+  "scripts": {
+    "start": "node ./src/index.js",
+    "start:no-check": "node ./src/withoutChecks.js",
+    "start:partial-check": "node ./src/partialCheck.js"
+  }
+}

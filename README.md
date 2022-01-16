@@ -19,3 +19,9 @@ npm run start:partial-check
 ```bash
 npm run start:no-check
 ```
+
+## Check files using typescript
+
+```bash
+npm run check-types
+```

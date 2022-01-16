@@ -1,0 +1,51 @@
+Arguments: 
+  /home/mhmdaljefri/.nvm/versions/node/v16.13.1/bin/node /home/mhmdaljefri/.nvm/versions/node/v16.13.1/bin/yarn add typescript
+
+PATH: 
+  /home/mhmdaljefri/.nvm/versions/node/v16.13.1/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/mhmdaljefri/.rvm/bin:/home/mhmdaljefri/.rvm/bin:info If you think this is a bug, please open a bug report with the information provided in "/home/mhmdaljefri/yarn-error.log".
+  info Visit https://yarnpkg.com/en/docs/cli/global for documentation about this command.:/home/mhmdaljefri/.rvm/bin:info If you think this is a bug, please open a bug report with the information provided in "/media/mhmdaljefri/HDD/projects/mhmdaljefri/type-checking-without-typescript/yarn-error.log".
+  info Visit https://yarnpkg.com/en/docs/cli/global for documentation about this command.:/home/mhmdaljefri/.rvm/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.13.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: Failed to replace env in config: ${NPM_TOKEN}
+      at /home/mhmdaljefri/.nvm/versions/node/v16.13.1/lib/node_modules/yarn/lib/cli.js:99004:13
+      at String.replace (<anonymous>)
+      at envReplace (/home/mhmdaljefri/.nvm/versions/node/v16.13.1/lib/node_modules/yarn/lib/cli.js:98999:16)
+      at Function.normalizeConfig (/home/mhmdaljefri/.nvm/versions/node/v16.13.1/lib/node_modules/yarn/lib/cli.js:31930:69)
+      at NpmRegistry.<anonymous> (/home/mhmdaljefri/.nvm/versions/node/v16.13.1/lib/node_modules/yarn/lib/cli.js:31960:34)
+      at Generator.next (<anonymous>)
+      at step (/home/mhmdaljefri/.nvm/versions/node/v16.13.1/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/mhmdaljefri/.nvm/versions/node/v16.13.1/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "type-checking-without-typescript",
+    "version": "0.0.1",
+    "description": "Example of writing Javascript code with type checking",
+    "main": "index.js",
+    "repository": "git@github.com:mhmdAljefri/type-checking-without-typescript.git",
+    "author": "mhmdAljefri <algfry12@gmail.com>",
+    "license": "MIT",
+    "private": false,
+  
+    "scripts": {
+      "start": "node ./src/index.js",
+      "start:no-check": "node ./src/withoutChecks.js",
+      "start:partial-check": "node ./src/partialCheck.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

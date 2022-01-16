@@ -7,10 +7,13 @@
   "author": "mhmdAljefri <algfry12@gmail.com>",
   "license": "MIT",
   "private": false,
-
   "scripts": {
     "start": "node ./src/index.js",
     "start:no-check": "node ./src/withoutChecks.js",
-    "start:partial-check": "node ./src/partialCheck.js"
+    "start:partial-check": "node ./src/partialCheck.js",
+    "check-types": "tsc --project tsconfig.json"
+  },
+  "dependencies": {
+    "typescript": "^4.5.4"
   }
 }
